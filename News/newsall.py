@@ -6,8 +6,8 @@ import string
 import pymongo
 
 # The headers remain the same for all the requests
-headers = {'Authorization': '53cf3c1b925d4731b1fc921bfa905d3a'}
-# client = pymongo.MongoClient("mongodb://dhruvesh:root@18.216.165.78/assigndb")
+headers = {'Authorization': ''}
+# client = pymongo.MongoClient("")
 # db = client.assigndb
 # collection=db['news']
 
