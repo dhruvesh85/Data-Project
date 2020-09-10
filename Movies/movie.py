@@ -2,7 +2,7 @@ import json
 import pandas
 import omdb
 import pymongo
-client = pymongo.MongoClient("mongodb://dhruvesh:root@3.21.156.171/assigndb")
+client = pymongo.MongoClient("")
 db = client.assigndb
 collection=db['movies']
 api = "cc08a17a"
