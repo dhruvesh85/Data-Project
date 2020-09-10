@@ -5,10 +5,10 @@ import re
 import string
 
 ####input your credentials here
-consumer_key = 'Ap3f7BSkmIyqI84ePYCXtluq4'
-consumer_secret = 'h4ICsG26QP7UEngdnK2KlaluQM3r89bJ2fZ0XzcmDMJDfKBAi4'
-access_token = '821038831017361408-NwFq0OhyXoB6KCU1hTCQgzLWVGYQdpz'
-access_token_secret = 'rVpqUp7PDjez1pplruggwI8MMXlpfisXnWtluA1ed2DlB'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #Interacting with twitter's API
 auth.set_access_token(access_token, access_token_secret)
